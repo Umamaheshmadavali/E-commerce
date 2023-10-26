@@ -1,0 +1,672 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 130px;
+    margin: 0px  30px 0px 50px;
+}
+#category{
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.buttonbar{
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+    background-color: white;
+    border: 1px solid white;
+}
+.bar{
+    width: 17px;   
+    padding-top: 1px; 
+}
+.search{
+    display: inline-flex;
+    padding: 3px;
+    margin-right: 400px;
+}
+.search input{
+    width: 500px;
+    height: 22px;
+    margin-top: 2px;
+}
+.glass
+{
+    background-color: rgb(0, 255, 17);
+    width: 30px;
+    margin-top: 2px;
+    height:25px ;
+}
+button img {
+    width: 10px;
+}
+#cart{
+    width: 20px;
+   
+}
+#user{
+    width: 17px;
+    margin-left: -380px;
+    margin-top: -10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container {
+    position: relative;
+    background: #aad5f6;
+}
+.slide-1 {
+    background: url('../../assets/images/page specific/banner-1.jpg');
+
+}
+.slide-2 {
+    background: url('../../assets/images/page specific/banner-2.jpg');
+}
+.slide-3 {
+    background: url('../../assets/images/page specific/banner-3.jpg');
+}
+
+.slide {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+}
+.caption {
+    background: whitesmoke;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 100px;
+}
+.caption h2 {
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 18px;
+    color: black;
+}
+.caption p {
+    max-width: 600px;
+    width: 90%;
+    margin: 0px auto;
+    color: #ccc;
+    font-size: 18px;
+    color: rgb(13, 0, 255);
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 100;
+    border-radius: 50%;
+    transform: background 500ms;
+}
+.arrow img {
+    width: 50px;
+}
+.l {
+    left: 0;
+}
+.r {
+    right: 0;
+}
+.container2{
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0px 200px 0px 220px;
+    justify-content: space-evenly;
+}
+.container2 h3{
+    color: blue;
+    font-weight: bolder;
+    font-size: 13px;
+    padding-top: 20px;
+
+
+}
+.container2 figcaption{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.product1 p,.product2 p,.product3 p{
+    padding-top: 20px;
+    font-size: 12px;
+}
+.product2{
+    margin-top: -5px;
+}
+.product1{
+    margin-top: -2px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 70px;
+}
+.banner-card{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: -150px 200px;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    padding: 15px;
+}
+.banner-text p{
+    padding: 5px;
+    font-size: 12px;
+}
+.watch{
+    background-color: red;
+    width: 88px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5px 20px 0px 35px ;
+    color: white;
+    border-radius: 10px;
+}
+.watch img{
+    width: 20px;
+    padding: 5px 0px 0px 10px ;
+}
+.watch h3{
+    font-size: 15px;
+    padding: 5px 10px 0px 0px;
+}
+.container4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.content2{
+   background-color:#F2F1F0;
+   width: 670px;
+   padding-top: 100px;
+    height: 470px;
+}
+.content2 h4{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.content2 h1{
+    font-weight: bolder;
+    padding-top: 20px;
+    font-size: 60px;
+}
+.content2 p{
+    padding-top: 20px;
+    font-size: 30px;
+}
+.container5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+  }
+  .quest{
+    margin-left: 20px;
+  }
+  .quest img{
+    width: 230px;
+    margin-left: 100px;
+  
+  }
+  .quest2{
+    width: 350px;
+    margin-left: 20px;
+    padding-top:10px;
+  }
+  .quest2 h4{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 60px;
+  }
+  .quest p{
+    padding-top: 5px;
+    margin-left: 60px;
+  }
+  .quest2 h5{
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 55px;
+
+  
+  }
+  .add{
+    background-color: blue;
+    width:165px;
+    color: rgb(252, 252, 252);
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    text-align: center;
+    margin:10px;
+  }
+.container6{
+    background: url('../../assets/images/pagespecific/content-4.jpg');
+    background-size: cover;
+    margin: 40px;
+    height:480px; 
+    padding-top: 80px; 
+    text-align: center;
+}
+.card5{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    margin: 90px 0px 0px 500px;
+    color: white;
+    padding-top: 70px;
+}
+.card5 h1{
+    font-size: 40px;
+    margin-top: -30px;
+}
+.card5 p{
+    padding-top: 40px;
+    font-size: 12px;
+    color: aquamarine;
+}
+.container7{
+    width: 270px;
+    height: 450px;
+    margin-left: 340px;
+    border-radius: 10px;
+    font-family: 'poppins';
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.container7 img{
+    margin-top: -30px;
+}   
+.static1{
+    padding-right: 10px;
+}
+.static3{
+    padding-left: 10px;
+}
+.plan{
+    width: 50%; /* Float the left element to take up half of the container */
+    float: left;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    box-sizing: border-box;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.weekly{
+    width: 50%; /* Float the right element to take up half of the container */
+    float: right;
+    background-color: white;
+    padding:20px 0px 0px 60px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.week{
+    padding-left: 60px;
+}
+.price{
+    padding: 40px 0px 0px 90px;
+}
+
+
+/* Style the container for the checkbox */
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding: 4px 0px 0px 50px; 
+    cursor: pointer;
+    user-select: none; 
+    margin:20px 0px 0px 10px;
+  
+}
+
+.checkbox-container input[type="checkbox"] {
+    position: absolute;
+    opacity: 0; 
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 25px; 
+    background-color: grey;
+    border: 1px solid #ccc;
+}
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 8px;
+    top: 2px;
+    width: 6px;
+    height: 12px;
+    border: solid #333;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+.checkbox-container input[type="checkbox"]:checked ~ .checkmark::after {
+    display: block;
+}
+.checkbox-container input[type="checkbox"]:checked ~ .checkmark::after {
+    display: block;
+}
+.checkbox-container input[type="checkbox"]:checked ~ .checkmark::after {
+    display: block;
+}
+.checkbox-container input[type="checkbox"]:checked ~ .checkmark::after {
+    display: block;
+}
+.checkbox-container p{
+    font-size: 15px;
+}
+.start{
+    width: 260px;
+    height: 30px;
+    margin-top: 20px;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+#container8{
+    text-align: center;
+    margin-top: 150px;
+}
+#container8 h4{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 5px;
+}
+#container8 p{
+    font-size: 15px;
+}
+.items{
+    margin-left:580px ;
+    padding-top: 10px;
+    width: 100px;
+    height: 100 px;
+}
+.item1{
+    margin-left: 665px;
+    margin-top: -80px;
+}
+.container9{
+    padding: 70px 0px 0px 250px;
+}
+.oculus{
+    margin-top: 40px;
+}
+.VR{
+    font-size: 20px;
+}
+.buttoncart{
+    background-color:blue ;
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+}
+.Buy{
+    background-color:red;
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+}
+.oculusvr{
+    font-size: 50px;
+}
+.productitem1:hover{
+    border: 1px solid rgb(0, 132, 255);
+    border-radius: 10px;
+}
+.class1{
+    display: flex;
+    padding-top: 10px;
+}
+.class1 .circle1{
+    background-color: whitesmoke;
+    width: 30px;
+    height: 30px;
+    border: 1px solid blue ;
+    border-radius: 50%;
+}
+.class1 .circle2{
+    background-color: lightpink;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.class1 .circle3{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.counter {
+    width: 100px;
+    height: 30px;
+    margin:  0px 0px 0px -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+}
+.counter input {
+    width: 50px;
+    border: 0;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    background: white;
+    color: black;
+    appearance: none;
+    outline: 0;
+}
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #0052cc;
+    user-select: none;
+}
+/* Apply float to create a 2-column layout */
+.truck1 {
+    float: left;
+    width: 50%; /* Set the width of the left column */
+}
+
+.truck2 {
+    float: left;
+    width: 50%; /* Set the width of the right column */
+    margin-top: 150px;
+    font-style: initial;
+}
+
+/* Clear floats to prevent layout issues */
+.container9::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.container10{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:white;
+    padding-top: 100px;
+}
+
+/* Styling for individual cards */
+.haritage {
+    width: 300px;
+    height: 420px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  0px 2px 3px rgba(0, 0, 0, 1.9);
+    text-align: center;
+    text-decoration: none;
+    font-style: initial;
+}
+
+/* Styling for card images */
+.haritage img {
+    width: 400px;
+    height: 300px;
+    margin: 40px 0px 0px -50px;
+}
+.explore{
+    background-color: white;
+    border: 2px solid white;
+    color: blue;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.container11 {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 400px;
+  background-color: #fff;
+  padding-left: 10px;
+  
+
+}
+
+/* Styling for individual cards */
+.box {
+  width: 200px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* Styling for card images */
+.box img {
+  width: 90px;
+  height: 80px;
+}
+.box p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box i{
+   font-weight:bolder;
+   width: fit-content;
+}
+.box h3{
+  font-size: x-large;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container12{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+
+
+/* Container styles */
+.container13{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 30px  0px 0px 0px;
+    background-color: white;
+    padding: 50px 0px 30px 0px;
+    border: 1px solid whitesmoke;
+}
+.follow{
+    margin-left: 300px;
+}
+.social{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+.bus1,.bus2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+/* Style the footer container */
+footer {
+    color: black;
+    padding: 20px 0;
+   margin:  50px 0px 0px 250px;
+}
+
+.container14 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style the individual list items */
+.list-item {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.list-item h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.list-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item li {
+    margin-bottom: 5px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.list-item a:hover {
+    text-decoration: underline;
+}
+.list-item b:hover{
+    text-decoration:underline
+}
